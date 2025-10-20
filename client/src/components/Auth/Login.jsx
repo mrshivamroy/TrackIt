@@ -61,6 +61,7 @@ const Login = ({ onLogin, onSwitchToRegister }) => {
               type="password"
               placeholder="Enter your password"
               value={formData.password}
+              autocomplete="current-password"
               onChange={(e) => setFormData({ ...formData, password: e.target.value })}
               required
             />
