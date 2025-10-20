@@ -1,0 +1,14 @@
+{
+  "name": "trackit",
+  "version": "1.0.0",
+  "description": "Lightweight MERN Expense Tracker PWA",
+  "scripts": {
+    "server": "cd server && node server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

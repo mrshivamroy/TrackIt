@@ -1,2 +1,13 @@
-# TrackIt
-Take control of your finances with TrackIt — a full-stack MERN expense tracker app built to help you effortlessly monitor your income and expenses. TrackIt offers user-friendly transaction management, secure authentication, and dynamic visual reports so you can understand your spending patterns and make informed financial decisions.
+# 💰 TrackIt
+
+**TrackIt** is a simple personal expense tracker that lets users log their income and expenses, categorize transactions, and view financial summaries. It helps you stay on top of your spending and manage your money more effectively.
+
+---
+
+## 🧱 Tech Stack
+
+- **Frontend:** React (Vite), Tailwind CSS, React Router, Axios  
+- **Backend:** Node.js, Express.js, MongoDB, Mongoose  
+- **Authentication:** JSON Web Tokens (JWT), bcrypt  
+- **Extras:** Service Worker, PWA support, Notifications
+
