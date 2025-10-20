@@ -73,6 +73,7 @@ const Register = ({ onRegister, onSwitchToLogin }) => {
               type="password"
               placeholder="Create a password"
               value={formData.password}
+              autocomplete="current-password"
               onChange={(e) => setFormData({ ...formData, password: e.target.value })}
               required
               minLength="6"
